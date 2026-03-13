@@ -1,10 +1,10 @@
-# list=[1,2,3,4,5]
-# list.append(10)
-# print(list)
-# list.insert(1,20)
-# print(list)
-# list.remove(3)
-# print(list)
+list=[1,2,3,4,5]
+list.append(10)
+print(list)
+list.insert(1,20)
+print(list)
+list.remove(3)
+print(list)
 
 
 list=[1,2,2,2,3,4,5]
@@ -16,13 +16,13 @@ print("index of b is ",list2.index("b"))
 
 
 # #remove duplicates from list
-# number=[1,2,2,3,4,4,5]
-# rem=[]
-# for i in number:
-#     if i not in rem:
-#         rem.append(i)
-# print("actual list is ",number)
-# print("list after removing duplicates is ",rem)
+number=[1,2,2,3,4,4,5]
+rem=[]
+for i in number:
+    if i not in rem:
+        rem.append(i)
+print("actual list is ",number)
+print("list after removing duplicates is ",rem)
 
 num=[45,23,67,12,89]
 maximum=second_largest =float('-inf')
@@ -185,4 +185,5 @@ print("longest word is ",longest_word)
 print("original list is ",list)
 list.sort(key=len)
 print("sorted list is ",list)
+
 
